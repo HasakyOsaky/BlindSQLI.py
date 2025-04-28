@@ -1,2 +1,4 @@
 # SQLI.py
-A simple blind SQLI script written in Python that allows an attacker to extract all Databases, Tables, Columns and data from it automatically. 
+This is a basic Blind SQL Injection (Boolean Based). This script is only used to dump data from a MySQL database against a website that requires a parameter. If no parameter is set, 'id' will be used by default.
+
+In case you need help with the usage just write: python3 BlindSQLI.py -h
