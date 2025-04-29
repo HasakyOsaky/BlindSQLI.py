@@ -77,7 +77,7 @@ def makeSQLI(url, parameter):
             extractData(url, parameter, db, table, columns)
 
 def helpPanel():
-    print(f"\nUsage: python3 {sys.argv[0]} <url> [parametro]")
+    print(f"\nUsage: python3 {sys.argv[0]} <url> [parameter]")
     print(f"Example: python3 {sys.argv[0]} http://example.com/vulnerable id")
     print(f"If the vulnerable parameter is not specified, ‘id’ will be used by default..\n")
 
